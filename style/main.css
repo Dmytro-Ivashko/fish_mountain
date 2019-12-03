@@ -13,7 +13,21 @@ header #header-top {
     background-color: #302640;
 }
 
-#first-screen {
-    height: 584px;
-    background-image: url("/img/first-screen-bg.jpg");
+.carousel-indicators li {
+    background-color: #FCC43E;
+    opacity: 1;
+}
+
+#carouselExampleIndicators .active {
+    background-color: #302640;
+}
+
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+.active-pink input[type=text] {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
 }
