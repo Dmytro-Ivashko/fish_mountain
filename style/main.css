@@ -131,7 +131,6 @@ body {
 .product {
     height: 480px;
     margin: 58px;
-    background-color: lightgreen;
 }
 
 #about_us {
@@ -180,7 +179,8 @@ footer {
     margin: 0;
 }
 
-.categories a:hover, ._dropdown:hover ._dropbtn {
+.categories a:hover,
+._dropdown:hover ._dropbtn {
     background-color: #302640;
     color: #FCC43E;
     text-decoration: underline;
@@ -240,6 +240,33 @@ footer {
     padding-left: 12px;
 }
 
+.carousel-indicators li {
+    background-color: #FCC43E;
+    opacity: 1;
+}
+
+#carouselExampleIndicators .active {
+    background-color: #302640;
+}
+
+.header-top input {
+    color: #FCC43E;
+    background-color: transparent;
+}
+
+.fa-phone-alt,
+.fa-search {
+    color: #FCC43E;
+}
+
+.ml-main {
+    margin-left: 333px;
+}
+
+.mr-main {
+    margin-right: 333px;
+}
+
 .btn-outline-primary {
     color: #FCC43E !important;
     background-color: transparent !important;
@@ -285,4 +312,60 @@ footer {
     border-color: #FCC43E !important;
     -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+#liked h2, #viewed h2 {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    color: #302640;
+    text-align: center;
+}
+
+#liked h2 .fa-heart, #viewed h2 .fa-heart {
+    color: #D80000;
+}
+
+.like, .view {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 10px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: gray;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+    border: 1px red solid;
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.product-sl:hover {
+    opacity: 0.5;
+}
+
+.slick-active + .slick-active + .slick-active + .slick-active ~ .slick-slide {
+    opacity: 0.5;
 }
