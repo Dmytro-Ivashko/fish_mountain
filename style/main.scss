@@ -44,7 +44,7 @@ body {
 }
 
 .fs-container {
-  margin-left: 20.8125rem;
+  margin-left: 333px;
   margin-right: 333px;
 }
 
@@ -124,6 +124,10 @@ body {
   padding-left: 10px !important;
 }
 
+.fs-pl-container {
+  padding-left: 333px !important;
+}
+
 .fs-pb-10 {
   padding-bottom: 10px !important;
 }
@@ -149,15 +153,150 @@ body {
   margin: 58px;
 }
 
-#about_us {
-  height: 772px;
-  background-color: lightblue;
+.about-us {
+  display: flex;
+  height: 722px;
+}
+
+.about-us-left {
+  width: 59.8%;
+  height: 100%;
+  background: transparent url("../img/footer_bg_op.png") no-repeat center;
+  color: $base-yellow;
+
+  h2 {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 120px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding-right: 150px;
+    margin-bottom: 40px;
+
+  }
+
+  p {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.06em;
+    color: #302640;
+    padding-right: 150px;
+  }
+
+}
+
+
+.about-us-right {
+  background: transparent url("../img/footer_bg.jpg") no-repeat center;
+  width: 40.2%;
+  height: 100%;
 }
 
 footer {
+  display: flex;
+  width: 100%;
   height: 368px;
-  background-color: gray;
 
+  h3 {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    // text-align: center;
+    letter-spacing: 0.06em;
+    color: #FCC43E;
+
+  }
+
+
+  p {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #FCC43E;
+  }
+}
+
+.fs-footer-left {
+  width: 59.8%;
+  color: $base-purple;
+  height: 100%;
+  h3 {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #302640;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  li {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    color: #302640;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type:none;
+  }
+}
+.footer-content {
+  padding-right: 316px !important;
+  padding-left: 333px !important;
+}
+.fs-footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40.2%;
+  height: 100%;
+  background-color: $base-purple;
+  color: $base-yellow;
+
+  h3 {
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  p {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 400px;
+  }
+
+  form {
+    padding-top: 20px;
+    padding-left: 20px;
+
+  }
+
+  input {
+
+    border-radius: 0 !important;
+    // background-color: #FFFCF5;
+
+  }
+
+  .btn-primary {
+    border-radius: 0 !important;
+  }
 }
 
 // /////////////////////////////////////////////////////////
@@ -340,7 +479,8 @@ footer {
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
 }
 
-#liked, #viewed {
+#liked,
+#viewed {
   h2 {
     font-family: Muli;
     font-style: normal;
@@ -351,7 +491,8 @@ footer {
     letter-spacing: 0.06em;
     color: #302640;
     text-align: center;
-    .fa-heart{
+
+    .fa-heart {
       color: #D80000;
     }
   }
@@ -359,7 +500,8 @@ footer {
 
 
 
-.like, .view {
+.like,
+.view {
   width: 100%;
   margin: 100px auto;
 }
@@ -377,7 +519,7 @@ footer {
 .slick-prev:before,
 .slick-next:before {
   color: gray;
-  
+
 }
 
 
@@ -401,4 +543,13 @@ footer {
 
 .slick-active+.slick-active+.slick-active+.slick-active~.slick-slide {
   opacity: 0.5;
+}
+
+.btn-primary {
+  border-color: $base-yellow;
+}
+
+.btn-primary:hover {
+  border-color: $base-yellow;
+
 }
