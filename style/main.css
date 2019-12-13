@@ -487,7 +487,6 @@ footer p {
 .slick-slide {
     transition: all ease-in-out .3s;
     opacity: .2;
-    border: 1px red solid;
 }
 
 .slick-active {

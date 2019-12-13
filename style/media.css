@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1700px) {
+    .fs-container {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .fs-pl-container {
+        padding-left: 150px !important;
+    }
+
+    .footer-content {
+        padding-right: 200px !important;
+        padding-left: 200px !important;
+    }
+
+    .product {
+        height: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-us-left h2,
+  .about-us-left p {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .fs-container-btn {
+        margin-top: -90px;
+    }
+}
+
+@media only screen and (max-width: 1430px) {
+    .fs-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .fs-pl-container {
+        padding-left: 100px !important;
+    }
+
+    .footer-content {
+        padding-right: 100px !important;
+        padding-left: 100px !important;
+    }
+
+    .about-us-left h2,
+  .about-us-left p {
+        padding-right: 100px;
+        padding-left: 0;
+    }
+}

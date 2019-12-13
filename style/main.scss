@@ -498,8 +498,6 @@ footer {
   }
 }
 
-
-
 .like,
 .view {
   width: 100%;
@@ -514,19 +512,14 @@ footer {
   width: 100%;
 }
 
-
-
 .slick-prev:before,
 .slick-next:before {
   color: gray;
-
 }
-
 
 .slick-slide {
   transition: all ease-in-out .3s;
   opacity: .2;
-  border: 1px red solid;
 }
 
 .slick-active {
@@ -551,5 +544,4 @@ footer {
 
 .btn-primary:hover {
   border-color: $base-yellow;
-
 }
