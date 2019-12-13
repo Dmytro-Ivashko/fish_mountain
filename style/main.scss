@@ -108,8 +108,6 @@ body {
 .brands {
   margin-top: 78px;
   margin-bottom: 50px;
-
-  // background-color: red;
   a:hover {
     opacity: 0.5;
     transform: scale(1.1);
@@ -208,7 +206,6 @@ footer {
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
-    // text-align: center;
     letter-spacing: 0.06em;
     color: #FCC43E;
 
@@ -290,7 +287,6 @@ footer {
   input {
 
     border-radius: 0 !important;
-    // background-color: #FFFCF5;
 
   }
 
@@ -299,7 +295,6 @@ footer {
   }
 }
 
-// /////////////////////////////////////////////////////////
 .categories {
   overflow: hidden;
   background-color: $base-bg-color;
