@@ -57,3 +57,29 @@
         justify-content: center;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .fs-gall-cat-big-w {
+        width: 673px !important;
+    }
+
+    .fs-gall-cat-middle {
+        width: 523px !important;
+    }
+
+    .fs-gall-cat-small-w {
+        width: 375px !important;
+    }
+
+    .about-us-left h2 {
+        font-size: 86px;
+    }
+
+    .categories a {
+        padding: 14px 5px !important;
+    }
+}
+
+/*!! $fs-gall-cat-big-w: 773px;
+$fs-gall-cat-middle-w: 575px;
+$fs-gall-cat-small-w: 375px; */

@@ -522,9 +522,20 @@ footer p {
     flex-wrap: nowrap;
 }
 
+.fs-category-gallery .gal-block .fs-gall-cat-big-w {
+    width: 773px;
+}
+
+.fs-category-gallery .gal-block .fs-gall-cat-middle {
+    width: 575px;
+}
+
+.fs-category-gallery .gal-block .fs-gall-cat-small-w {
+    width: 375px;
+}
+
 .fs-category-gallery .gal-block #fs-category-gall-1 {
     height: 320px;
-    width: 773px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -539,7 +550,6 @@ footer p {
 
 .fs-category-gallery .gal-block #fs-category-gall-2 {
     height: 320px;
-    width: 375px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -555,7 +565,6 @@ footer p {
 
 .fs-category-gallery .gal-block #fs-category-gall-3 {
     height: 320px;
-    width: 575px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -570,7 +579,6 @@ footer p {
 
 .fs-category-gallery .gal-block #fs-category-gall-4 {
     height: 320px;
-    width: 575px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -586,7 +594,6 @@ footer p {
 
 .fs-category-gallery .gal-block #fs-category-gall-5 {
     height: 320px;
-    width: 375px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -601,7 +608,6 @@ footer p {
 
 .fs-category-gallery .gal-block #fs-category-gall-6 {
     height: 320px;
-    width: 773px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
