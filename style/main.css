@@ -96,11 +96,13 @@ body {
 .brands {
     margin-top: 78px;
     margin-bottom: 50px;
+    vertical-align: middle;
 }
 
 .brands a:hover {
     opacity: 0.5;
     transform: scale(1.1);
+    filter: grayscale(90%);
 }
 
 .fs-pr-10 {
@@ -121,15 +123,6 @@ body {
 
 .fs-pt-10 {
     padding-top: 10px !important;
-}
-
-.fs-category-gallery img {
-    transition: all .2s ease-in-out;
-}
-
-.fs-category-gallery img:hover {
-    opacity: 0.5;
-    transform: scale(1);
 }
 
 .product {
@@ -511,4 +504,120 @@ footer p {
 
 .btn-primary:hover {
     border-color: #FCC43E;
+}
+
+.fs-category-gallery p {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fs-category-gallery .gal-block {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-1 {
+    height: 320px;
+    width: 773px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../img/1_bags.jpg);
+    margin: 0 10px 10px 0;
+    display: flex;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-1 p {
+    margin: 18px 0 0 18px;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-2 {
+    height: 320px;
+    width: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../img/2_jackets.jpg);
+    margin: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-2 p {
+    margin: 18px 18px 0 0;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-3 {
+    height: 320px;
+    width: 575px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../img/3_footwear.jpg);
+    margin: 10px 10px 10px 0;
+    display: flex;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-3 p {
+    margin: 18px 0 0 18px;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-4 {
+    height: 320px;
+    width: 575px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../img/4_equipment.jpg);
+    margin: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-4 p {
+    margin: 18px 18px 0 0;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-5 {
+    height: 320px;
+    width: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../img/5_fishing_rods.jpg);
+    margin: 10px 10px 0 0;
+    display: flex;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-5 p {
+    margin: 18px 0 0 18px;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-6 {
+    height: 320px;
+    width: 773px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../img/6_tents.jpg);
+    margin: 10px 0 0 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fs-category-gallery .gal-block #fs-category-gall-6 p {
+    margin: 18px 18px 0 0;
+}
+
+.fs-category-gallery #fs-category-gall-1:hover, .fs-category-gallery #fs-category-gall-2:hover, .fs-category-gallery #fs-category-gall-3:hover, .fs-category-gallery #fs-category-gall-4:hover, .fs-category-gallery #fs-category-gall-5:hover, .fs-category-gallery #fs-category-gall-6:hover {
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    filter: grayscale(65%);
 }

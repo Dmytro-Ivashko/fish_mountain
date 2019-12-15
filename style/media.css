@@ -30,7 +30,7 @@
     }
 }
 
-@media only screen and (max-width: 1430px) {
+@media only screen and (max-width: 1440px) {
     .fs-container {
         margin-left: 50px;
         margin-right: 50px;
@@ -49,5 +49,11 @@
   .about-us-left p {
         padding-right: 100px;
         padding-left: 0;
+    }
+
+    .gall {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
