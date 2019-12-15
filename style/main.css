@@ -694,12 +694,6 @@ footer p {
     padding-left: 13px;
 }
 
-.product-sl:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.01);
-}
-
 .product-sl:hover .product-view {
     display: block;
 }
