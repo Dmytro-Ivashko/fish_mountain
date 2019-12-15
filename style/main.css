@@ -490,10 +490,6 @@ footer p {
     opacity: 1;
 }
 
-.product-sl:hover {
-    opacity: 0.5;
-}
-
 .slick-active + .slick-active + .slick-active + .slick-active ~ .slick-slide {
     opacity: 0.5;
 }
@@ -621,9 +617,89 @@ footer p {
     margin: 18px 18px 0 0;
 }
 
-.fs-category-gallery #fs-category-gall-1:hover, .fs-category-gallery #fs-category-gall-2:hover, .fs-category-gallery #fs-category-gall-3:hover, .fs-category-gallery #fs-category-gall-4:hover, .fs-category-gallery #fs-category-gall-5:hover, .fs-category-gallery #fs-category-gall-6:hover {
+.fs-category-gallery #fs-category-gall-1:hover,
+.fs-category-gallery #fs-category-gall-2:hover,
+.fs-category-gallery #fs-category-gall-3:hover,
+.fs-category-gallery #fs-category-gall-4:hover,
+.fs-category-gallery #fs-category-gall-5:hover,
+.fs-category-gallery #fs-category-gall-6:hover {
     justify-content: center;
     flex-direction: column;
     cursor: pointer;
     filter: grayscale(65%);
+}
+
+.product-sl h3 {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #302640;
+}
+
+.product-sl h4 {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #8C8C8C;
+}
+
+.product-sl p {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #302640;
+}
+
+.product-sl .product-view {
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    height: 153px;
+    background-color: #FFFFFF;
+}
+
+.product-sl .product-view .product-color {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.product-sl .product-view .product-color img {
+    width: 20px;
+    margin: 5px;
+}
+
+.product-sl .product-view .product-info h3 {
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+
+.product-sl .product-view .price-cart {
+    float: center;
+    margin-top: 4px;
+    display: inline-flex !important;
+    justify-content: center;
+}
+
+.product-sl .product-view .price-cart i {
+    padding-left: 13px;
+}
+
+.product-sl:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.01);
+}
+
+.product-sl:hover .product-view {
+    display: block;
 }
