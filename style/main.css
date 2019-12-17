@@ -82,15 +82,33 @@ body {
 }
 
 .fs-social-btn {
+    align-items: center;
+    width: 37px;
     font-size: 24px;
     margin-left: 11px;
-    margin-bottom: -500px;
+    padding-left: 5px;
+    padding-right: 10px;
     z-index: 1;
 }
 
 .fs-social-btn i {
     color: #FCC43E;
     margin-bottom: 18px;
+}
+
+.fs-social-btn i:hover {
+    transform: scale(1.2);
+}
+
+.btn-group-vertical {
+    position: fixed !important;
+    top: 40%;
+    -webkit-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    transform: translateY(-45%);
+    background-color: rgba(48, 38, 64, 0.459);
+    border-top-right-radius: 80%;
+    border-bottom-right-radius: 80%;
 }
 
 .brands {
@@ -697,6 +715,7 @@ footer p {
 .product-sl:hover .product-view {
     display: block;
 }
+
 header {
     background-color: #FBFBFB;
     height: 145px;

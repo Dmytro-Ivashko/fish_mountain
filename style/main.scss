@@ -99,22 +99,45 @@ body {
 }
 
 .fs-social-btn {
+  align-items: center;
+  width: 37px;
   font-size: 24px;
   margin-left: 11px;
-  margin-bottom: -500px;
+  padding-left: 5px;
+  padding-right: 10px;
   z-index: 1;
 
   i {
     color: $base-yellow;
     margin-bottom: 18px;
   }
+  i:hover {
+    transform: scale(1.2);
+  }
+}
+.fs-social-btn a:first-child {
+  // margin-top: 15px;
+}
+.fs-social-btn a:last-child {
+  // margin-bottom: 18px;
+}
+.btn-group-vertical {
+  
+  position: fixed !important;
+  top: 40%;
+  -webkit-transform: translateY(-45%);
+  -ms-transform: translateY(-45%);
+  transform: translateY(-45%);
+  background-color: hsla(263, 25%, 20%, 0.459);
+  // border: 1px solid #302640;
+  border-top-right-radius: 80%;
+  border-bottom-right-radius: 80%;
 }
 
 .brands {
   margin-top: 78px;
   margin-bottom: 50px;
   vertical-align: middle;
-
   a:hover {
     opacity: 0.5;
     transform: scale(1.1);
@@ -762,3 +785,8 @@ footer {
 
   }
 }
+header {
+  background-color: #FBFBFB;
+  height: 145px;
+}
+
