@@ -409,6 +409,9 @@ footer {
     color: $base-purple;
     padding-left: 12px;
   }
+  a:hover {
+    transform: scale(1.2);
+  }
 }
 
 .carousel-indicators li {
@@ -823,4 +826,10 @@ header {
   .mt-mb-5 {
     margin-top: 5px !important;
     margin-bottom: 5px !important;
+    vertical-align: middle;
   } 
+  .fa-times:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
