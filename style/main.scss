@@ -115,14 +115,8 @@ body {
     transform: scale(1.2);
   }
 }
-.fs-social-btn a:first-child {
-  // margin-top: 15px;
-}
-.fs-social-btn a:last-child {
-  // margin-bottom: 18px;
-}
+
 .btn-group-vertical {
-  
   position: fixed !important;
   top: 40%;
   -webkit-transform: translateY(-45%);
@@ -789,4 +783,44 @@ header {
   background-color: #FBFBFB;
   height: 145px;
 }
+.modal-login {
 
+.nav-item{
+  a {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    color: #302640 !important;
+      }
+}
+
+
+}
+.fs-custom-control-label {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #9C9C9C;
+  margin-bottom: 10px !important;
+  }
+
+  .fs-login-font {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #9C9C9C;
+  }
+
+  .mt-mb-5 {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  } 
