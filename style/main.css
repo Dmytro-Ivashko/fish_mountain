@@ -697,3 +697,7 @@ footer p {
 .product-sl:hover .product-view {
     display: block;
 }
+header {
+    background-color: #FBFBFB;
+    height: 145px;
+}
